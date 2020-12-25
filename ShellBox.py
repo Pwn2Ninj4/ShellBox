@@ -50,7 +50,7 @@ SHELL = {
 
 def console():
 	parser = ArgumentParser(description="""{}ShellBox.py: {}Reverse Shell Generator
-{}[+]{}By D4n3x
+{}[+]{}By Pwn2Ninja
 {}[+]{}Black0ut{}""".format(red, gray, red, blue, red, blue, gray), formatter_class=RawTextHelpFormatter)
 	parser.optional_title = "Arguments"
 	parser.add_argument('-l', "--lhost", type=validateIP, help='Specify local host ip', metavar='')
