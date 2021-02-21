@@ -87,7 +87,7 @@ def generate(host, port, pl, shelltype):
 	if pl not in('bash', 'java'):
 	    print('{}[!]{}Shell type chose:{} {}'.format(red, blue, gray, SHELL[shelltype]))
 	time.sleep(1)
-	text = ("\n{}[!]{}Initialization server in {}[{}]{}".format(red, blue, red, pl, blue))
+	text = ("\n{}[!]{}Initialization reverse shell in {}[{}]{}".format(red, blue, red, pl, blue))
 	for c in text:
 	    print(c, end='')
 	    sys.stdout.flush()
