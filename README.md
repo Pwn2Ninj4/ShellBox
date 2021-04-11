@@ -4,7 +4,7 @@ Utility created in Python to generate reverse shells in different programming la
 
 ## Usage:
 
-```bash
+```
 $ python3 ShellBox.py -h
 
 -h, --help       show this help message and exit
