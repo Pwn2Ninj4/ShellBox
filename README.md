@@ -1,7 +1,10 @@
 # ShellBox
-Utilidad creada en Python para generar reverse shells en distintos lenguajes de programación
 
-<h2>USO:</h2>
+Utility created in Python to generate reverse shells in different programming languages
+
+## Usage:
+
+```bash
 $ python3 ShellBox.py -h
 
 -h, --help       show this help message and exit
@@ -13,3 +16,4 @@ $ python3 ShellBox.py -h
 -v , --version   Specify the lenguage to generate the reverse shell
 
 -s , --shell     Specify shell type to use
+```
